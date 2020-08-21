@@ -5,7 +5,6 @@
 .topnav {
   overflow: hidden;
   background-color: #be3144;
-  /* height: 60px; */
   position: fixed;
   width: 100%;
 }
@@ -59,7 +58,7 @@ h2 {
   grid-template-columns: auto auto auto;
   padding: 50px;
   background-color: #45567d;
-  height: 100vh;
+  height: 110vh;
 }
 
 .container {
@@ -102,13 +101,14 @@ img {
   background-color: #303840;
   color: #f0f0f0;
   font-size: 2rem;
-  margin-top: 60px;
-  /* text-align: center; */
-  /* margin: auto; */
-  margin-left: 600px;
-  margin-bottom: 40px;
+  margin-left: 690px;
   text-decoration: none;
 }
+
+.show-more:hover {
+    background-color: #be3144;
+}
+
 .contact-section {
   background-color: #303841;
   height: 65vh;
@@ -129,7 +129,6 @@ img {
 }
 
 .contact-links a{
-  /* background-color: red; */
   text-decoration: none;
   display: inline-block;
   margin-top: 25px;
@@ -138,4 +137,25 @@ img {
   margin-left: 130px;
   color: #f0f0f0;
 
+}
+
+footer {
+    border-top: 5px solid #be3144;
+    height: 8rem;
+    background-color: #303841;
+    color: #f0f0f0;
+    font-size: 1.1rem;
+    
+}
+
+.footer-content {
+    padding-top: 50px;
+}
+
+#span-one {
+    margin-left: 100px;
+}
+
+#span-two {
+    margin-left: 500px;
 }
