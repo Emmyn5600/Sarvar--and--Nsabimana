@@ -106,7 +106,7 @@ img {
 }
 
 .show-more:hover {
-    background-color: #be3144;
+  background-color: #be3144;
 }
 
 .contact-section {
@@ -128,7 +128,7 @@ img {
   font-size: 30px;
 }
 
-.contact-links a{
+.contact-links a {
   text-decoration: none;
   display: inline-block;
   margin-top: 25px;
@@ -136,26 +136,52 @@ img {
   padding: 2px 10px;
   margin-left: 130px;
   color: #f0f0f0;
-
 }
 
 footer {
-    border-top: 5px solid #be3144;
-    height: 8rem;
-    background-color: #303841;
-    color: #f0f0f0;
-    font-size: 1.1rem;
-    
+  border-top: 5px solid #be3144;
+  height: 8rem;
+  background-color: #303841;
+  color: #f0f0f0;
+  font-size: 1.1rem;
 }
 
 .footer-content {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 #span-one {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 #span-two {
-    margin-left: 500px;
+  margin-left: 380px;
 }
+/* 
+@media only screen and (min-width: 51px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 51px) {
+  .contact-section {
+    display: inline-block;
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 51px) {
+  .footer-content {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 51px) {
+  .contact-links {
+    display: flex;
+    font-size: 6px;
+  }
+}
+@media only screen and (min-width: 51px) {
+  .show-more {
+    margin-left: 450px;
+  }
+} */
